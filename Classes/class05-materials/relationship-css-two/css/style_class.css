@@ -4,7 +4,7 @@ section > h2{
   color: Blue;
 }
 /* Please Make only Zebra Purple */
-h2 + h2{
+section > h2 + h2{
   color: Purple;
 }
 
