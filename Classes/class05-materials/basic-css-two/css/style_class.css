@@ -19,10 +19,10 @@ h1{
 }
 
 footer{
-  
+  background: rgb(126, 33, 33);
+  height: 300px;
+  width: 70%;
 }
-<!-- Please make this footer have a dark brown background, 300px in height, and only 70% width. -->
-<footer>
 
 h2{
   text-decoration: line-through;
