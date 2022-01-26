@@ -1,11 +1,16 @@
-header{
-  border: 5px gray solid;
+*{
+  box-sizing: border-box;
 }
 
-border{
+header, footer{
+  height: 100px;
   border: 5px gray solid;
+  clear: both;
 }
 
-footer{
+section{
+  float: left;
+  height: 100px;
+  width: 33.33%;
   border: 5px gray solid;
 }
