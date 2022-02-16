@@ -1,0 +1,68 @@
+.Chapter1
+  crossbow {
+    display: flex;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: row;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+.Chapter2
+  crossbow {
+    display: flex;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  rossbow {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  crossbow {
+    display: flex;
+    justify-content: center;
+  }
+
+  crossbow {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  rossbow {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  crossbow {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
