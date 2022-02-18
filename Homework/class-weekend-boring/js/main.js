@@ -4,7 +4,7 @@ function check() {
 
   const day = document.querySelector('#day').value
 
-  if (day.toUpperCase === "WEDNESDAY"){
+  if (day === "WEDNESDAY"){
     alert("Humpdaaaaaaaaaay!")
   }else if (day === "SATURDAY" || day === "SUNDAY"){
     alert("It's the weekend")
