@@ -4,11 +4,11 @@ function check() {
 
   const day = document.querySelector('#day').value
 
-  if (day.upcase === "WEDNESDAY"){
+  if (day === "WEDNESDAY"){
     alert("Humpdaaaaaaaaaay!")
-  }else if (day.upcase === "SATURDAY" || day.upcase === "SUNDAY"){
+  }else if (day === "SATURDAY" || day === "SUNDAY"){
     alert("It's the weekend")
-  }else if (day.upcase === "TUESDAY" || day.upcase === "THURSDAY"){
+  }else if (day === "TUESDAY" || day === "THURSDAY"){
     alert("Class today!")
   }else{
     alert("It's just a boring day")
