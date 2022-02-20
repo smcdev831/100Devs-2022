@@ -23,6 +23,7 @@
 
 body {
 
+
 }
 
 
@@ -30,13 +31,20 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+  border: 2px solid gray;
+  float: left;
 }
 
 footer {
-
+  border: 2px solid gray;
+  float: left;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+section {
+  border: 2px solid gray;
+  float: right;
+}
