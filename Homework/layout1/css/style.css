@@ -31,11 +31,10 @@ body {
 /* LAYOUT
 /*******************************************/
 header, footer {
-  height: 25px;
+  height: 100px;
   width: 100%;
   border: 2px solid gray;
   float: left;
-  clear: both;
 }
 
 /******************************************
@@ -43,14 +42,14 @@ header, footer {
 /*******************************************/
 
 section {
-  height: 50px;
+  height: 200px;
   width: 33.33%;
   border: 2px solid gray;
   float: left;
 }
 
 aside {
-  height: 75px;
+  height: 300px;
   width: 50%;
   border: 2px solid gray;
   float: left;
