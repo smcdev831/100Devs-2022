@@ -42,23 +42,16 @@ header, footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-aside {
-  height: 50px;
-  width: 100%;
-  border: 2px solid gray;
-  float: left;
-}
-
 section {
-  height: 75px;
-  width: 33.33%;
+  height: 100px;
+  width: 20%;
   border: 2px solid gray;
   float: left;
 }
 
 div {
-  height: 75px;
-  width: 66.66%;
+  height: 100px;
+  width: 40%;
   border: 2px solid gray;
   float: left;
 }
