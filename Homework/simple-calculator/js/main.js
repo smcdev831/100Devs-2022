@@ -4,6 +4,7 @@ document.querySelector('#pumpkin').addEventListener('click', makeZero)
 document.querySelector('#dominosPizza').addEventListener('click', jumanji)
 document.querySelector('#zebra').addEventListener('click', add9)
 document.querySelector('#cantThinkOfAnything').addEventListener('click', sub2)
+document.querySelector('#addingStuff').addEventListener('click', times2)
 
 function makeZero() {
   total = 0
@@ -22,5 +23,10 @@ function add9() {
 
 function sub2() {
   total = total - 2
+  document.querySelector('#placeToPutResult').innerHTML = total
+}
+
+function times2() {
+  total = total * 2
   document.querySelector('#placeToPutResult').innerHTML = total
 }
