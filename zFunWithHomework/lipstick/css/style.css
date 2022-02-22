@@ -65,17 +65,17 @@ li{
 }
 
 #red{
-  background: rgba(213,21,26);
+  background: rgb(213,21,26);
 }
 
 #pink{
-  background: rgba(230,81,118);
+  background: rgb(230,81,118);
 }
 
 #berry{
-  background: rgba(150,27,68);
+  background: rgb(150,27,68);
 }
 
 #neutral{
-  background: rgba(158,82,73)
+  background: rgb(158,82,73);
 }
