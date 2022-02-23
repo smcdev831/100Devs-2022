@@ -7,19 +7,19 @@ document.querySelector('#claireNext').addEventListener('click', claireNext)
 document.querySelector('#sharleenNext').addEventListener('click', sharleenNext)
 
 function andiNext(){
-	claire.classList.add(/*INSERTCODE*/)
-	sharleen.classList.add(/*INSERTCODE*/)
-	andi.classList.toggle(/*INSERTCODE*/)
+	claire.classList.add('hidden')
+	sharleen.classList.add('hidden')
+	andi.classList.toggle('hidden')
 }
 
 function claireNext(){
-	claire.classList.add(/*INSERTCODE*/)
-	sharleen.classList.add(/*INSERTCODE*/)
-	andi.classList.toggle(/*INSERTCODE*/)
+	claire.classList.toggle('hidden')
+	sharleen.classList.add('hidden')
+	andi.classList.add('hidden')
 }
 
 function sharleenNext(){
-	claire.classList.add(/*INSERTCODE*/)
-	sharleen.classList.add(/*INSERTCODE*/)
-	andi.classList.toggle(/*INSERTCODE*/)
+	claire.classList.add('hidden')
+	sharleen.classList.toggle('hidden')
+	andi.classList.add('hidden')
 }
