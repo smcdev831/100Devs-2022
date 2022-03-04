@@ -5,21 +5,20 @@
 //If under 25, tell them they can not rent cars affordably
 //If under 30, tell them they can not rent fancy cars affordably
 //If under over 30, tell them there is nothing left to look forward too
-let age = 0;
+let age = 11;
 
-if (age > 30) {
+if (age >= 30) {
   console.log("there is nothing left to look forward to");
-} else if (age > 25) {
+} else if (age >= 25) {
   console.log("they can not rent fancy cars affordably");
-} else if (age > 21) {
+} else if (age >= 21) {
   console.log("they can not rent cars affordably");
-} else if (age > 18) {
+} else if (age >= 18) {
   console.log("they can not drink");
-} else if (age > 16) {
+} else if (age >= 16) {
   console.log("they can't hate from outside the club, because they can't even get in");
 } else {
-  console.log(they can not drive);
-}
+  console.log("they can not drive");
 }
 
 
