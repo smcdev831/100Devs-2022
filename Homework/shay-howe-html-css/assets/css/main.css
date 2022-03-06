@@ -143,6 +143,7 @@ h1, h3, h4, h5, p {
 .hero {
   padding: 22px 80px 66px 80px;
 	line-height: 44px;
+	text-align: center;
 }
 
 .hero h2 {
@@ -150,6 +151,7 @@ h1, h3, h4, h5, p {
 }
 .hero p {
   font-size: 24px;
+	font-weight: 100;
 }
 
 section {
@@ -170,6 +172,9 @@ section {
   float: left;
 	font-size: 48px;
   line-height: 44px;
+	font-weight: 100;
+	letter-spacing: .5px;
+	text-transform: uppercase;
 }
 
 /*
@@ -192,13 +197,19 @@ section {
 
 /*
   ========================================
-  Primary nav
+  Navigation
   ========================================
 */
 
 .primary-nav {
   font-size: 14px;
   font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+}
+
+.nav {
+  text-align: right;
 }
 
 /*
@@ -208,8 +219,8 @@ section {
 */
 
 body {
-	color: #888;
-	font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #888;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4 {
@@ -238,6 +249,7 @@ h5 {
   color: #a9b2b9;
   font-size: 14px;
   font-weight: 400;
+	text-transform: uppercase;
 }
 
 strong {
@@ -250,6 +262,7 @@ cite, em {
 
 .tagline {
   margin: 66px 0 22px 0;
+	text-align: right;
 }
 
 /*
@@ -258,14 +271,19 @@ cite, em {
   ========================================
 */
 
+a {
+  color: #648880;
+	text-decoration: none;
+}
+
 a:hover {
   color: #a9b2b9;
 }
 
-a {
-  color: #648880;
-}
-
 .teaser a:hover h3 {
   color: #a9b2b9;
+}
+
+p a {
+  border-bottom: 1px solid #dfe2e5;
 }
