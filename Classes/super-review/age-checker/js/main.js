@@ -11,3 +11,19 @@
 //On click of the h1
 //Take the value from the input
 //Place the result of the conditional in the paragraph
+
+let age = 25;
+
+if (age < 16) {
+   console.log("they can not drive");
+} else if (age < 18) {
+  console.log("they can't hate from outside the club, because they can't even get in");
+} else if (age < 21) {
+  console.log("they can not drink");
+} else if (age < 25) {
+  console.log("they can not rent cars affordably");
+} else if (age < 30) {
+  console.log("they can not rent fancy cars affordably");
+} else {
+  console.log("there is nothing left to look forward to other than 100Devs");
+}
