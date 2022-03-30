@@ -21,4 +21,4 @@ let unoReverse = str => console.log(str.split('').reverse().join(''));
 
 const palindromeCheck = str => alert(str === str.split('').reverse().join(''))
 
-palindromeCheck('cookie')
+palindromeCheck('racecar')
