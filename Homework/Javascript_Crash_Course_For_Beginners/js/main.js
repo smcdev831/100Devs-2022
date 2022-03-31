@@ -35,3 +35,21 @@ console.log(z); //undefined
 console.log('My name is ' + name + ' and I am ' + age);
 //Template string
 console.log(`My name is ${name} and I am ${age}`);
+
+const s = 'Hello World!';
+
+console.log(s.length);
+console.log(s.toUpperCase());
+console.log(s.toLowerCase());
+console.log(s.substring(0, 5)); //start and stop parameters
+console.log(s.split(''));
+
+const fruits = ['apples', 'oranges', 'pears']
+console.log(fruits);
+console.log(fruits[1]);
+fruits[3] = 'grapes';
+fruits.push('mangos');
+fruits.unshift('strawberries');
+console.log(fruits);
+fruits.pop();
+console.log(fruits);
