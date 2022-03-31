@@ -53,3 +53,31 @@ fruits.unshift('strawberries');
 console.log(fruits);
 fruits.pop();
 console.log(fruits);
+console.log(Array.isArray(fruits));
+console.log(fruits.indexOf('oranges'));
+
+const person = {
+  firstName: 'John',
+  lastName: 'Doe',
+  age: 30,
+  hobbies: ['music', 'movies', 'sports'],
+  address: {
+    street: '50 Main Street',
+    city: 'Boston',
+    state: 'MA'
+  }
+}
+
+console.log(person);
+console.log(person.firstName, person.lastName);
+console.log(person.hobbies[1]);
+console.log(person.address.city);
+
+const {firstName, lastName, address: {city}} = person;
+
+console.log(firstName);
+console.log(city);
+
+person.email = 'john@gmail.com';
+
+console.log(person);
